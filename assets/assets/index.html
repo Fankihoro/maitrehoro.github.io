@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet transversaux</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://fonts.googleapis.com">
+    <link rel="preload" href="https://fonts.gstatic.com" origine croisée>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="#" class="logo">Horo</a>
+            <ul>
+                <li>
+                    <button class="btn" id="displayForm">Se connecter</button>
+                </li>
+            </ul>
+        </nav>
+        <section> 
+            <div class="sec-container">
+                <div class="form-wrapper">
+                    <div class="card">
+                        <div class="card-header">
+                            <div id="forLogin" class="form-header active" >Se connecter</div>
+                            <div id="forRegister" class="form-header">S'inscrire</div>
+                        </div>
+                        <div class="card-body" id="formContainer">
+                            <form id="loginForm">
+                                <input type="text" class="form-control" placeholder="@Utilisateur">
+                                <input type="password" class="form-control" placeholder="@Mot de passe">
+                                <button class="formButton">Connexion</button>
+                            </form>
+                            <form id="registerForm" class="toggleForm">
+                                <input type="text" class="form-control" placeholder="@Utilisateur">
+                                <input type="password" class="form-control" placeholder="@Mot de passe">
+                                <input type="password" class="form-control" placeholder="@Confirmer mot de passe">
+                                <button class="formButton">Inscription</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
