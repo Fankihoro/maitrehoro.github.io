@@ -1,0 +1,73 @@
+/* Styles généraux pour le corps de la page */
+body {
+    background-color:#FFFFF0;
+    color: black;
+    font-family: Arial, sans-serif; /* Ajout d'une police de caractères par défaut */
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: red;
+}
+
+/* Styles pour les champs de saisie et le champ #commentaire */
+input, #commentaire {
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+}
+
+/* Styles pour une classe spécifique de contenu */
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+fieldset{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.liste_ingredient{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styles pour une liste ordonnée spécifique */
+.preparation ol {
+    justify-content: center;
+    margin-right: 150px; /* Vous pouvez ajuster cette marge selon vos besoins */
+    align-items: center;
+}
+
+.preparation ol li {
+    padding-bottom: 20px;
+}
+
+/* Styles pour une classe spécifique modimg */
+.modimg {
+    margin-right: 20px;
+}
+
+/* Styles pour les tableaux */
+table {
+    table-layout: fixed;
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+    border-collapse: collapse;
+    border: 3px solid transparent;
+    box-shadow: grey;
+}
+
+table th, table td {
+    border: 1px solid bisque;
+    padding: 5px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2ecc71;
+    color: black;
+}
